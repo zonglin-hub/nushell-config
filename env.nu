@@ -103,5 +103,5 @@ $env.NU_PLUGIN_DIRS = [
 # $env.PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
 
 # Config starship nushell
-mkdir ~/AppData/Roaming/nushell/starship
-starship init nu | save -f ~/AppData/Roaming/nushell/starship/init.nu
+mkdir ~/.config/nushell/starship
+starship init nu | save -f ~/.config/nushell/starship/init.nu
