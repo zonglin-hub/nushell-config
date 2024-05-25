@@ -883,5 +883,5 @@ $env.config = {
     ]
 }
 
-# init starship
-use ~/AppData/Roaming/nushell/starship/init.nu
+# Ubuntu init starship
+use ~/.config/nushell/starship/init.nu
